@@ -1,7 +1,9 @@
-export GRAILS_HOME=$HOME/Dev/grails-2.3.1
-export WORKON_HOME=$HOME/Dev/virtualenv
+export WORKSPACE=$HOME/Workspace
+export GRAILS_HOME=$WORKSPACE/tools/grails
+export WORKON_HOME=$WORKSPACE/tools/virtualenv
 export GROOVY_HOME=/Library/Groovy
-export PROJECT_HOME=$HOME/Dev
+export GRADLE_HOME=$WORKSPACE/tools/gradle
+export PROJECT_HOME=$WORKSPACE
 
 typeset -U path
 path=( $HOME/.rbenv/bin $GROOVY_HOME/bin $GRAILS_HOME/bin $HOME/Dropbox/Documents/todo.txt $path )

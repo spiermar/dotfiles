@@ -1,4 +1,7 @@
+# Skip global compinit
+skip_global_compinit=1
 
+# Path to your oh-my-zsh configuration
 ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -46,8 +49,14 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# todo.txt
+alias t='todo.sh'
+
 # Open investcharts platform
 investcharts() { java -jar $HOME/Documents/investcharts.jar; }
+
+# Open JMeter
+jmeter() { $WORKSPACE/tools/apache-jmeter/bin/jmeter; }
 
 # Setup Python virtualenv wrapper
 source /usr/local/bin/virtualenvwrapper.sh;
@@ -56,3 +65,5 @@ source /usr/local/bin/virtualenvwrapper.sh;
 eval "$(rbenv init -)"
 alias rake="noglob rake"
 
+# Figlet host print
+# figlet -f slant $HOST
