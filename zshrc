@@ -49,21 +49,21 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-# todo.txt
-alias t='todo.sh'
-
-# Open investcharts platform
-investcharts() { java -jar $HOME/Documents/investcharts.jar; }
-
-# Open JMeter
-jmeter() { $WORKSPACE/tools/apache-jmeter/bin/jmeter; }
-
 # Setup Python virtualenv wrapper
 source /usr/local/bin/virtualenvwrapper.sh;
 
-# Ruby stuff
-eval "$(rbenv init -)"
-alias rake="noglob rake"
+# todo.txt
+alias t="todo.sh"
 
-# Figlet host print
 # figlet -f slant $HOST
+
+export EDITOR=vim
+
+export AWS_ACCESS_KEY=<AWS_ACCESS_KEY>
+export AWS_SECRET_KEY=<AWS_SECRET_KEY>
+
+export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY
+export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_KEY
+
+export NVM_DIR="/Users/mojo/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
