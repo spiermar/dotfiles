@@ -97,12 +97,6 @@ source $ZSH/oh-my-zsh.sh
 
 # figlet -f slant $HOST
 
-# awscli
-export AWS_ACCESS_KEY=<AWS_ACCESS_KEY>
-export AWS_SECRET_KEY=<AWS_SECRET_KEY>
-export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY
-export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_KEY
-
 # virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh;
 
