@@ -66,7 +66,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 typeset -U path
 
-path=( $HEROKU_HOME/bin $GO_APPENGINE_HOME $GOROOT/bin $GOPATH/bin $GROOVY_HOME/bin $GRAILS_HOME/bin $HOME/Dropbox/Documents/todo.txt /usr/local/sbin/ $path )
+path=( $HEROKU_HOME/bin $GO_APPENGINE_HOME $GOROOT/bin $GOPATH/bin $GROOVY_HOME/bin $GRAILS_HOME/bin $HOME/Dropbox/Documents/todo.txt /usr/local/packer/ /usr/local/sbin/ $path )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,3 +106,6 @@ alias t="todo.sh"
 # nvm
 export NVM_DIR="/Users/mojo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# rbenv
+eval "$(rbenv init -)"
