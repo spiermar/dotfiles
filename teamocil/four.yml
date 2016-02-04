@@ -1,0 +1,9 @@
+windows:
+  - name: four-panes
+    root: ~/
+    layout: even-horizontal
+    panes:
+      - clear
+      - clear
+      - clear
+      - clear
