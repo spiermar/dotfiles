@@ -5,3 +5,4 @@ set background=dark
 colorscheme solarized
 set number
 set mouse=a
+set clipboard=unnamed
