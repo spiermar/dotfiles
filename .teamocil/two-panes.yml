@@ -1,0 +1,7 @@
+windows:
+  - name: two-panes
+    root: ~/
+    layout: even-horizontal
+    panes:
+      - clear
+      - clear
