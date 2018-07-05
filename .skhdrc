@@ -84,8 +84,8 @@ alt - j : chunkc tiling::window --focus south
 alt - k : chunkc tiling::window --focus north
 alt - l : chunkc tiling::window --focus east
 
-alt - p : chunkc tiling::window --focus prev
-alt - n : chunkc tiling::window --focus next
+# alt - p : chunkc tiling::window --focus prev
+# alt - n : chunkc tiling::window --focus next
 
 # equalize size of windows
 # shift + alt - 0 : chunkc tiling::desktop --equalize
@@ -222,6 +222,9 @@ shift + alt - space : chunkc tiling::window --toggle float;\
 # change layout of desktop
 alt - a : chunkc tiling::desktop --layout bsp
 alt - s : chunkc tiling::desktop --layout monocle
-# ctrl + alt - d : chunkc tiling::desktop --layout float
+alt - d : chunkc tiling::desktop --layout float
 
 # ctrl + alt - w : chunkc tiling::desktop --deserialize ~/.chunkwm_layouts/dev_1
+
+# restart chunkwm
+shift + alt - r : brew services restart chunkwm
